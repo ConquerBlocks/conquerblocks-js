@@ -9,6 +9,6 @@
 <h4>Material de las clases</h4>
 <ul>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-js/blob/master/00_indice_modulo/JS%20-%20Contenidos.pdf">Índice de contenidos del módulo</a></li>
-    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-js/blob/master/01_clases/Clase%2001%20-%20Introducci%C3%B3n%20a%20JS/JS%20Clase%2001%20-%20Introducci%C3%B3n%20a%20JS.pdf">CSS Clase 01 - Introducción a JS</a></li>
-    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-js/blob/master/01_clases/Clase%2002%20-%20Conceptos%20b%C3%A1sicos%20del%20lenguaje/Clase%2002%20-%20Conceptos%20b%C3%A1sicos%20del%20lenguaje.pdf">CSS Clase 02 - Conceptos básicos del lenguaje</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-js/blob/master/01_clases/Clase%2001%20-%20Introducci%C3%B3n%20a%20JS/JS%20Clase%2001%20-%20Introducci%C3%B3n%20a%20JS.pdf">JS Clase 01 - Introducción a JS</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-js/blob/master/01_clases/Clase%2002%20-%20Conceptos%20b%C3%A1sicos%20del%20lenguaje/Clase%2002%20-%20Conceptos%20b%C3%A1sicos%20del%20lenguaje.pdf">JS Clase 02 - Conceptos básicos del lenguaje</a></li>
 </ul>

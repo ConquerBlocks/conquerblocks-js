@@ -12,7 +12,7 @@ Escribir un programa que pregunte el nombre del usuario usando "promt" y despué
 ## Ejercicio 4
 Escribir un programa que realice la siguiente operación aritmética:
 
-![Ejercicio 4](variables-6.png)
+![Ejercicio 4](variables-4.png)
 
 ## Ejercicio 5
 Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.

@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Resolución de ejericios de la clase 3 de JS</title>
+  <meta name="description" content="Descubre y aprende todo lo relacionado con el Desarrollo FullStack">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+  <script>
+    // Una panadería vende barras de pan a 3.49€ cada una. El pan que no es el día tiene un descuento del 60%. Escribir un programa que comience leyendo el número de barras vendidas que no son del día y que son del día. Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste final total.
+    
+    let barraDia = 3.49;
+    let barraAyer = barraDia*0.4;
+
+    let barrasAyerCompradas = Number(prompt("Indique el número de barras de ayer compradas"));
+
+    let totalConDescuento =barrasAyerCompradas*barraAyer;
+    let totalSinDescuento = barrasAyerCompradas* barraDia;
+    let descuento = totalSinDescuento- totalConDescuento;
+
+    console.log("El total ha sido de " + totalConDescuento +". Le hemos hecho un descuento de " + descuento + ". Si no le hubiésemos hecho descuento el total sería: " + totalSinDescuento);
+  </script>
+</head>
+
+<body>
+  <h1>Resolución de ejercicios de la Clase 3 de JS</h1>
+  <h2>Ejercicio 9</h2>
+  <p><a href="index.html">Volver al índice</a></p>
+  
+
+
+
+  <footer>
+    <p>© Conquer Crypto 2023 - <a href="aviso-legal.html">Aviso Legal</a></p>
+  </footer>
+
+</body>
+
+</html>

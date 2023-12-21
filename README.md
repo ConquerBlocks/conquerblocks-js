@@ -16,6 +16,7 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/tree/master/01_clases/Clase%2003-1%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20variables%20y%20operadores">Clase 03-1 - Resolución de ejercicios de variables y operadores</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/tree/master/01_clases/Clase%2004%20-%20Funciones%20en%20Javascript">Clase 04 - Funciones en JavasCript</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/Clase%2005%20-%20Sentencias%20de%20control%20de%20flujo%2C%20number%20y%20string/JS%20Clase%2005%20-%20Sentencias%20de%20control%20de%20flujo%2C%20number%20y%20string.pdf">Clase 05 - Sentencias de control de flujo, string y number</a></li>
+    <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/Clase%2006%20-%20Clousures%2C%20Hoisting%20y%20Scope/JS%20Clase%2006%20-%20Clousures%2C%20Hoisting%20y%20Scope.pdf">Clase 06 - Hoisting, Scope y Clousures</a></li>
 </ul>
 
 <h4>Ejercicios</h4>

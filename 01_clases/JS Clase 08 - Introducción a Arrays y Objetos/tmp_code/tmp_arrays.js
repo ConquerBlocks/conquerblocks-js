@@ -1,4 +1,13 @@
-// Declaración de arrays literales
+// Declaración de arrays
+
+// Declaración normal
+let nuevoArray = new Array();
+// Declaración resumida
+let nuevoArray[];
+// Otra forma resumida
+let nuevoArray = [];
+
+// Nos gusta
 let nombres = [];
 
 // Declaración de arrays con valores
@@ -23,5 +32,3 @@ let nombresConValores = ['Jose', 'Luis'];
 // Vamos a acceder a una propiedad para saber el tamaño (cuidado con length y lenght)
 
 // Ya veremos cómo añadir elementos, quitar, buscar y un sin fin de métodos que nos proveen los arrays
-
-//

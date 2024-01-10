@@ -17,6 +17,8 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/Clase%2006%20-%20Clousures%2C%20Hoisting%20y%20Scope/JS%20Clase%2006%20-%20Clousures%2C%20Hoisting%20y%20Scope.pdf">Clase 06 - Hoisting, Scope y Clousures</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2007%20-%20Resoluci%C3%B3n%20de%20ejercicios%20sobre%20operadores%20l%C3%B3gicos%20y%20de%20comparaci%C3%B3n/Clase%2007%20-%20Resoluci%C3%B3n%20de%20ejercicios%20sobre%20operadores%20l%C3%B3gicos%20y%20de%20comparaci%C3%B3n.pdf">JS Clase 07 - Resolución de ejercicios sobre operadores lógicos y de comparación</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2008%20-%20Introducci%C3%B3n%20a%20Arrays%20y%20Objetos/JS%20Clase%2008%20-%20Introducci%C3%B3n%20a%20Arrays%20y%20Objetos.pdf">JS Clase 08 - Introducción a Arrays y Objetos</a></li>
+    <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2009%20-%20Arrow%20Functions/JS%20Clase%2009%20-%20Arrow%20Functions%20-%20Diapositivas.pdf">JS Clase 09 - Arrow Functions</a></li>
+    <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2010%20-%20Funciones%20%C3%BAtiles%20para%20Arrays%201/JS%20Clase%2010%20-%20Funciones%20%C3%BAtiles%20para%20Arrays%201%20-%20Diapositivas.pdf">JS Clase 10 - Funciones útiles para Arrays 1</a></li>
 </ul>
 
 <h4>Ejercicios</h4>

@@ -1,6 +1,8 @@
+const edades = [4, 7, 8, 9, 5, 3];
+
 const alumnos = [
   {
-    id: 0,
+    id: 99,
     nombre: 'Zamora',
     edad: 35
   },
@@ -21,80 +23,56 @@ const alumnos = [
   }
 ];
 
-const nombres = ['Jose Luís', 'Lucía', 'Felipe', 'Lucía'];
-
-
-
-// Ordenar array de primitos con sort
-alumnos.sort((a, b) => {
   /**
    * Debe devolver un número negativo si a va antes que b
    * Debe devolver un número positivo si b va antes que a
    * Debe devolver 0 si a y b son iguales
    */
   // return a.edad - b.edad;
-
-  if (a.edad < b.edad) {
-    return -1;
-  } else if (a.edad > b.edad) {
-    return 1;
-  } else {
-    return 0;
-  }
-});
-
-
-// Buscar primitivos dentro de un array con indexOf
-// Dame un array de nombres de personas
-console.log(nombres.indexOf('Lucía')); // 1
-console.log(nombres.indexOf('María')); // -1
-console.log(nombres.lastIndexOf('Juan')); // -1
-console.log(nombres.lastIndexOf('Lucía')); // 3
-
-//Empezar la búsqueda en un índice concreto
-console.log(nombres.indexOf('Lucía', 2)); // 3
-
-// Cómo hacemos para saber si un elemento está en un array: indexOf !== -1
-// Introducción a includes
-
-
-// Buscar valores por referencia en un array con indexOf, son referencias a objetos diferentes
-
-
-
-// let alumno = usuarios.indexOf(
-//   {
-//     id: 1,
-//     nombre: 'Jose Luís'
+// alumnos.sort((a1, a2) => {
+//   if (a1.edad > a2.edad) {
+//     return -1;
+//   } else if (a1.edad < a2.edad) {
+//     return 1;
+//   } else {
+//     return 0;
 //   }
-// ); // -1
+// });
 
-let alumno = {
-    id: 1,
-    nombre: 'Jose Luís'
-  }
-); // -1
+// console.log(alumnos);
 
+// const vecinos = ['María', 'Jose', 'Luís', 'María', 'Antonio'];
 
-let alumnoEncontrado = alumnos.find(function(alumno) {
-  return alumno.id === 2;
-}); // devuelve el primer elemento que cumple la condición
+// console.log(vecinos.indexOf('María'));
+// console.log(vecinos.lastIndexOf('María'));
+// console.log(vecinos.indexOf('María', 1));
+// console.log(vecinos.includes('Antonio'));
 
 
-let indiceAlumnoEncontrado = alumnos.findIndex(function(alumno) {
-  return alumno.id === 2;
-}); // devuelve el primer elemento que cumple la condición
+// Búsqueda de elementos por referencia
+// console.log(alumnos.find((alumno) => {
+//   return alumno.nombre === 'Lucía';
+// }));
 
-// Buscar valores por referencia en un array con find (devuelve el primer elemento que cumple la condición)
-// Buscar valores por referencia en un array con findIndex (devuelve el primer elemento que cumple la condición)
 
-// Spread operator ES06
-// En lugar de usar concat
-// let arr1 = ['a', 'b', 'c']
-// let arr2 = ['g', 'h', 'i']
-// let mezcla = [...arr1, ...arr2]
+// console.log(alumnos.findIndex((alumno) => {
+//   return alumno.nombre === 'Lucía';
+// }));
+// const hombres = ['Juan', 'Felipe', 'Antonio'];
+// const mujeres = ['María', 'Lucía'];
 
-// Copias de arrays para no modificar originales
-// let arr4 = [...arr2];
-// arr2.pop();
-// console.log(arr4)
+// const todos = [...hombres, 'Nicasio', ...mujeres];
+// const hombres2 = [...hombres];
+// hombres2[0] = 5;
+
+
+// const nombres = ['Felipe', 'María', 'felipe', 'maria'];
+// nombres.sort((a, b) => {
+//   if (a.toUpperCase() < b.toUpperCase()) {
+//     return 1;
+//   } else if (a.toUpperCase() > b.toUpperCase()){
+//     return -1;
+//   }else {
+//     return 0;
+//   }
+// })

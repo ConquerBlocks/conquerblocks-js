@@ -22,6 +22,7 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2011%20-%20Funciones%20%C3%BAtiles%20para%20Arrays%202/JS%20Clase%2011%20-%20Funciones%20%C3%BAtiles%20para%20Arrays%202.pdf">JS Clase 11 - Funciones útiles para Arrays 2</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2012%20-%20Funciones%20%C3%BAtiles%20para%20Arrays%203/JS%20Clase%2012%20-%20Funciones%20%C3%BAtiles%20para%20Arrays%203.pdf">JS Clase 12 - Funciones útiles para Arrays 3</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201.pdf">JS Clase 13 - Resolución de ejercicios de Arrays 1 - Diapositivas</a></li>
+    <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201/code/ejercios-arrays-1-enunciados.js">JS Clase 13 - Resolución de ejercicios de Arrays 1 - Enunciados</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201/code/ejercios-arrays-1.js">JS Clase 13 - Resolución de ejercicios de Arrays 1 - Ejercicios</a></li>
 </ul>
 

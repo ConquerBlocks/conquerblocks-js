@@ -24,6 +24,7 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201.pdf">JS Clase 13 - Resolución de ejercicios de Arrays 1 - Diapositivas</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201/code/ejercios-arrays-1-enunciados.js">JS Clase 13 - Resolución de ejercicios de Arrays 1 - Enunciados</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201/code/ejercios-arrays-1.js">JS Clase 13 - Resolución de ejercicios de Arrays 1 - Ejercicios</a></li>
+    <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2014%20-%20Prototipos/JS%20Clase%2014%20-%20Prototipos.pdf">JS Clase 14 - Prototipos</a></li>
 </ul>
 
 <h4>Ejercicios</h4>

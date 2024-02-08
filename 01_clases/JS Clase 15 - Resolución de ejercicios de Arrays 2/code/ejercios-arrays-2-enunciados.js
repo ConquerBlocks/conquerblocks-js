@@ -4,24 +4,26 @@ Crea un nuevo array donde cada elemento del array original se duplique
 
 */
 
-// 1-Crea un nuevo array donde cada elemento del array original se duplique
+
+/* Ejercicio 2
+
+Calcula la suma de todos los elementos en el array creado en el ejercicio 1 e imprímelo.
+
+*/
 
 
+/* Ejercicio 3
 
-//2-Calcula la suma de todos los elementos en el array creado en el ejercicio 1 e imprímelo.
+Crea un nuevo array que contenga solo los números pares del array original.
 
+*/
 
-//3-Crea un nuevo array que contenga solo los números pares del array original.
+/* Ejercicio 4
 
+Pide al usuario que ingrese un número y verifica si está presente en el array.
 
+*/
 
-//4-Crea un nuevo array donde cada elemento del array original se duplique.
-
-
-
-
-
-//5-Pide al usuario que ingrese un número y verifica si está presente en el array.
 
 
 

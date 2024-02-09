@@ -1,129 +1,131 @@
 // Definición de clases
 
 // Primera versión, con una función constructora
-
-// La principal diferencia es que los métodos de Usuario no van a estar en el prototipo, sino que se van a crear cada vez que se cree un nuevo objeto Usuario. Esto puede ser un problema si tenemos muchos objetos Usuario, ya que estaríamos creando muchas veces los mismos métodos.
-function Usuario(nombre, apellido, email) {
-    this.nombre = nombre;
-    this.apellido = apellido;
-    this.email = email;
+function Usuario(nombre, apellido) {
+  this.nombre = nombre;
+  this.apellido = apellido;
 
   this.saludar = function () {
     console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
   }
 }
 
+// Explicar que saludar está en todas las instancias que creemos por lo que se desaprovecha mucho espacio
+
+// Ahora añadamos una función al prototipo
+
 Usuario.prototype.despedirse = function () {
-    console.log(`Hola, soy ${this.nombre} ${this.apellido}, me despido`);
+  console.log(`Soy ${this.nombre} ${this.apellido}, me despido`);
 }
 
-// Comprobar en la consola dónde vive el método saludar
+// Comprobemos donde vive ahora la función despedirse
 
-// Clase para manejar los datos de un usuario
 
-// Segunda versión, con una clase. La sintaxis es más clara y más parecida a otros lenguajes de programación. Además, los métodos de Usuario van a estar en el prototipo, por lo que no se van a crear cada vez que se cree un nuevo objeto Usuario.
+// Nuestra primera clase
+// Explicar lo que es el constructor
+
 class Usuario {
-    // Explicar que el constructor es un método especial que se ejecuta cuando se crea un nuevo objeto de la clase
-    constructor(nombre, apellido, email) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.email = email;
-        this.despedirse = function () {
-          console.log(`Hola, soy ${this.nombre} ${this.apellido}, me despido`);
-        }
-    }
-
-    activo = true;
-
-    saludar() {
-        console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
-    }
-
-    // Función de la instancia y no de la clase
-    // cerraSesion = () => {
-    //   this.activo = false;
-    //   console.log('Sesión cerrada');
-    // }
-}
-
-
-// Comprobar en la consola dónde vive el método saludar
-// Comprobar la diferencia entre despedirse y saludar
-// Class es únicamente azúcar sintáctico pero es muy útil
-// Comprobar la función cerrarSesión como arrow functions
-// Recordar que con Class siempre hay que usar new
-// Las funciones tienen hoisting, las clases no
-
-// Miembros privados, primero en una función constructora y luego en una clase
-
-// Primera versión, con una función constructora
-function Usuario(nombre, apellido, email) {
+  // Explicar que el constructor es un método especial que se ejecuta cuando se crea un nuevo objeto de la clase
+  constructor(nombre, apellido) {
     this.nombre = nombre;
     this.apellido = apellido;
-    this.email = email;
-
-    let activo = true;
-
-    this.saludar = function () {
-        console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
-    }
-
-    this.getActivo = function () {
-        return activo;
-    }
+  }
 }
+
+// Añadámosle el método saludar en primera instancia
 
 class Usuario {
-    #activo = true;
+  constructor(nombre, apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
 
-    constructor(nombre, apellido, email) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.email = email;
-    }
-
-    saludar() {
-        console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
-    }
-
-    getActivo() {
-        return this.#activo;
-    }
-}
-
-// Mostrar lo curioso de que chrome nos muestre acceso a la propiedad, pero no podamos hacer nada con ella
-
-
-
-// Métodos estáticos, ejemplo Math.abs o Math.random
-
-// Son métodos que pertenecen a la clase y no a la instancia
-class Alumno {
-    constructor(id, nombre, apellido, email) {
-      this.id = id;
-      this.nombre = nombre;
-      this.apellido = apellido;
-      this.email = email;
-    }
-
-    saludar() {
+    this.saludar = function () {
       console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
     }
-
-    // static nAlumnos = 0;
-
-    static obtenerAlumnos(id) {
-      console.log('Buscando en la API el alumno con id ' + id);
-      console.log(`He obtenido el alumno ${id}`);
-      return new Alumno(id, 'Pepe', 'Pérez', 'pepeperez@gmail.com');
-    }
+  }
 }
 
+// Tenemos el mismo problema que con las funciones constructoras, metamos saludar en la clase
+class Usuario {
+  constructor(nombre, apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+  }
+
+  saludar() {
+    console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
+  }
+}
+
+// ¿Cómo hacíamos atributos privados en funciones constructoras?
+
+function Usuario(nombre, apellido) {
+  this.nombre = nombre;
+  this.apellido = apellido;
+
+  let password = 'passwordsuperseguro';
+
+  this.getPassword = function () {
+    return password;
+  }
+}
+
+let u1 = new Usuario('Bienve', 'Sáez');
+u1.getPassword();
+
+
+// Cómo lo hacemos con clases?
+
+class Usuario {
+  #password;
+
+  constructor(nombre, apellido, password) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.#password = password;
+  }
+
+  saludar() {
+    console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
+  }
+
+  getPassword() {
+    return this.#password;
+  }
+}
+
+//Comentar que el acceso solo funciona en chrome para debugger
+let u1 = new Usuario('Bienve', 'Sáez', 'passwordsuperseguro');
+u1.getPassword();
+console.log(u1.#password);
+
+// Métodos estáticos, ejemplo Math.abs o Math.random
 // Por ejemplo las funciones de los array, son métodos estáticos de la clase Array
 const alumnos = [];
 Array.isArray(alumnos);
 
-// También podemos tener propiedades estáticas.
+// Son métodos que pertenecen a la clase y no a la instancia
+class Alumno {
+  constructor(id, nombre, apellido, email) {
+    this.id = id;
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+  }
+
+  saludar() {
+    console.log(`Hola, soy ${this.nombre} ${this.apellido}`);
+  }
+
+  static obtenerAlumnos(id) {
+    console.log('Buscando en la API el alumno con id ' + id);
+    console.log(`He obtenido el alumno ${id}`);
+    // Es normal que devuelvan algo, en este caso el alumno que ha encontrado
+    return new Alumno(id, 'Pepe', 'Pérez', 'pepeperez@gmail.com');
+  }
+}
+
+// También podemos tener propiedades estáticas. Por ejemplo PI
 
 
 
@@ -169,10 +171,12 @@ class Persona {
 
 
 class Alumno extends Persona {
+  #curso;
+
   // importantísimo llamar al constructor padre
-  constructor(nombre, apellido, email) {
+  constructor(nombre, apellido, curso) {
     super(nombre, apellido);
-    this.email = email;
+    this.#curso = curso;
   }
 
   // Cómo sobreescribir un método, se va a ejecutar el método más cercano a la clase

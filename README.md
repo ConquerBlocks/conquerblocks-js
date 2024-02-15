@@ -33,5 +33,9 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/02_ejercicios/01-variables-y-tipos-de-datos.md">Variables y tipos de datos</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/02_ejercicios/02-operadores-logicos-y-de-comparacion.md">Operadores lógicos y de comparación</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/02_ejercicios/03-estructuras-de-control-condicionales.md">Estructuras de control condicionales</a></li>
-    <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/02_ejercicios/04-estructuras-de-control-bucles.md">Estructuras de control de bucles</a></li>
+    <li><a target="_blank" href="./02_ejercicios/04-estructuras-de-control-bucles.md">Estructuras de control de bucles</a></li>
+    <li><a target="_blank" href="./02_ejercicios/04-estructuras-de-control-bucles.md">Estructuras de control de bucles</a></li>
+    <li><a target="_blank" href="./02_ejercicios/05-estructuras-de-datos-arrays.md">05-estructuras-de-datos-arrays</a></li>
+    <li><a target="_blank" href="./02_ejercicios/06-funciones.md">06-funciones</a></li>
+    <li><a target="_blank" href="./02_ejercicios/07-funciones-buenas-practicas.md">07-funciones-buenas-practicas</a></li>
 </ul>

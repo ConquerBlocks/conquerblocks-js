@@ -26,6 +26,7 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2013%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%201/code/ejercios-arrays-1.js">JS Clase 13 - Resolución de ejercicios de Arrays 1 - Ejercicios</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2014%20-%20Prototipos/JS%20Clase%2014%20-%20Prototipos.pdf">JS Clase 14 - Prototipos</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2015%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%202/code/ejercios-arrays-2-enunciados.js">JS Clase 15 - Resolución de ejercicios de Arrays 2</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 16 - Clases en JS/JS Clase 16 - Clases en Javascript.pdf">JS Clase 16 - Clases en Javascript</a></li>
 </ul>
 
 <h4>Ejercicios</h4>
@@ -35,7 +36,8 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/02_ejercicios/03-estructuras-de-control-condicionales.md">Estructuras de control condicionales</a></li>
     <li><a target="_blank" href="./02_ejercicios/04-estructuras-de-control-bucles.md">Estructuras de control de bucles</a></li>
     <li><a target="_blank" href="./02_ejercicios/04-estructuras-de-control-bucles.md">Estructuras de control de bucles</a></li>
-    <li><a target="_blank" href="./02_ejercicios/05-estructuras-de-datos-arrays.md">05-estructuras-de-datos-arrays</a></li>
-    <li><a target="_blank" href="./02_ejercicios/06-funciones.md">06-funciones</a></li>
-    <li><a target="_blank" href="./02_ejercicios/07-funciones-buenas-practicas.md">07-funciones-buenas-practicas</a></li>
+    <li><a target="_blank" href="./02_ejercicios/05-estructuras-de-datos-arrays.md">Estructuras de datos: Arrays</a></li>
+    <!-- <li><a target="_blank" href="./02_ejercicios/06-funciones.md">Funciones</a></li>
+    <li><a target="_blank" href="./02_ejercicios/07-funciones-buenas-practicas.md">Buenas prácticas con funciones</a></li> -->
+    <li><a target="_blank" href="./02_ejercicios/15-clases.md">Ejercicios con Clases</a></li>
 </ul>

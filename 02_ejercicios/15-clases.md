@@ -1,4 +1,4 @@
-# Programación orientada a objetos
+# Ejercicios con Clases en Javascript
 
 Crear las siguientes clases con sus respectivos métodos y propiedades.
 Usar propiedades privadas.
@@ -57,7 +57,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - **`cambiarCanal(canal)`** actualiza la propiedad `canal` con el valor del parámetro `canal`
     - **`subirVolumen()`** suma 1 a `volumen` y actualiza dicha propiedad
     - **`bajarVolumen()`** resta 1 a `volumen` y actualiza dicha propiedad
-    - **`toString()`** devuelve un *string* como el siguiente ejemplo: 
+    - **`toString()`** devuelve un *string* como el siguiente ejemplo:
     <br>
 
     ```
@@ -72,7 +72,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - solo se puede cambiar a un canal que exista
     - el volumen mínimo es 0 y el máximo 100
 <br>
-        
+
 ## Anotador
   - **Propiedades**
     - `titulo` (string)
@@ -87,7 +87,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - **`eliminarNotas()`** borra todos los ítems de `notas`
     - **`listarNotas()`** devuelve un string con todas las notas y sus respectivos ids, por ejemplo
     <br>
-    
+
     ```
     Cosas para hacer
     ------------------------
@@ -98,9 +98,9 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     ```
 <br>
 
-    
+
 ## Celular
- 
+
   - **Propiedades**
     - contactos (array de objetos), inicializa vacío
     - llamadas (array de strings), inicializa vacío
@@ -115,7 +115,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
   - **Observaciones**
     - `contacto` es un objeto con las propiedades `nombre` y `numero`
     - no se puede agregar un contacto si ya existe en el celular alguno con el mismo nombre o número
-    <br> 
+    <br>
 
 ## BilleteraVirtual
 
@@ -134,14 +134,14 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - **`calcularTotalPorMes(mes)`** devuelve el total resultante de restar todos los gastos hechos y sumar todas las ganancias obtenidas en un cierto `mes`
     - **`calcularTotalPorCategoria(categoria)`** devuelve el total resultante de restar todos los gastos hechos y sumar todas las ganancias obtenidas en cierta `categoria
     - **`obtenerMonto()**` devuelve `monto`
-  - **Observaciones**  
-    - los objetos `gasto` y `ganancia` contiene las propiedades: 
+  - **Observaciones**
+    - los objetos `gasto` y `ganancia` contiene las propiedades:
       - `descripcion` (string)
       - `cantidad` (número)
-      - `fecha` (Date) 
+      - `fecha` (Date)
       - `categoria` (string)
     - cuando se agrega `gasto` o `ganancia` al array operaciones, hay que agregarle a dicha objeto la propiedad `tipo` con el valor `"GASTO"` o `"GANANCIA"` según corresponda, para poder identificarlos en las siguientes operaciones
-    - cuando se devuelve un array con gastos o ganancias, hay que borrar de los objetos que se devuelven la propiedad `tipo`   
+    - cuando se devuelve un array con gastos o ganancias, hay que borrar de los objetos que se devuelven la propiedad `tipo`
 <br>
 
 ## Carrito con Producto
@@ -169,18 +169,18 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
   - **Métodos**
     - **`agregarProducto(producto)`** agrega `producto` a `productos
     - **`actualizarCantidadProducto(id, cantidad)`** actualiza la `cantidad` del producto en `productos` con `id`
-    - **`eliminarProducto(id)`** elimina de `productos` el producto con `id` 
+    - **`eliminarProducto(id)`** elimina de `productos` el producto con `id`
     - **`calcularTotal()`** devuelve el total del carrito (con impuestos incluidos)
     - **`calcularImpuestoTotal()`** devuelve el total de la suma de los impuestos de cada producto que `tieneImpuesto`
     - **`obtenerCantidadTotal()`** devuelve la cantidad total de ítems en el producto
-    - **`toString()`** devuelve un string con 
+    - **`toString()`** devuelve un string con
       - la lista de productos, detallando nombre, precio por unidad y cantidad
       - subtotal de todos los productos sin sumar impuesto
       - subtotal de todos los impuestos sumados
       - total final (suma de los subtotales)
   - **Observaciones**
     - el impuesto es del 10% sobre el precio del producto
-    <br> 
+    <br>
 
 ## Agenda con Tareas
 
@@ -197,7 +197,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
   - **Métodos**
     - **`finalizar()`** cambia `finalizada` a `true`
     - getters para obtener los valores de todas las propiedades
-  
+
   ### Agenda
   - **Propiedades**
     - tareas (array de `Tarea`), inicializa vacío
@@ -211,7 +211,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
       - **`filtrarFinalizadas()`** devuelve un array de tareas que estén finalizadas
       - **`filtrarPorCategoria(categoria)`** devuelve un array de tareas que tenga `categoria`
       - **`filtrarPorVencimiento(fecha)`** devuelve un array de tareas que tenga vencimiento en `fecha`
-     <br> 
+     <br>
 
 
 ## Librería con Libros con Autor
@@ -235,13 +235,13 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - stock (número)
   - **Constructor**
     - genera un `id` automático y lo asigna a su propiedad
-    - el resto de propiedades las pide como argumentos y las asigna según corresponda  
+    - el resto de propiedades las pide como argumentos y las asigna según corresponda
   - **Métodos**
     - **`tieneStock()`** devuelve `true` si `stock` es mayor a 0, `false` sino
     - getters para obtener los valores de todas las propiedades, menos `stock`
     - setter para modificar los valores de `precio` y `stock`
-  - **Observaciones** 
-    - `stock` y `precio` tienen como valor mínimo 0  
+  - **Observaciones**
+    - `stock` y `precio` tienen como valor mínimo 0
 
   ### Libreria
   - **Propiedades**
@@ -256,7 +256,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - **`filtrarPorGenero(genero)`** devuelve un array de libros con `genero`
     - **`comprarLibros(idLibros)`** toma un array de ids de libros, si tienen stock, reduce el stock de dichos libros en 1 y suma a ganancias el precio de cada libro comprado
     - **`obtenerGanancias`** devuelve `ganancias`
-    <br> 
+    <br>
 
 ## Chat con Usuarios y Mensajes
 
@@ -266,7 +266,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - nombre (string)
   - **Constructor**
     - genera un `id` automático y lo asigna a su propiedad
-    - el resto de propiedades las pide como argumentos y las asigna según corresponda  
+    - el resto de propiedades las pide como argumentos y las asigna según corresponda
   - **Métodos**
     - getters para obtener los valores de todas las propiedades
 
@@ -277,10 +277,10 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - texto (string)
     - fecha (Date), inicializa con la fecha actual (`new Date()`)
   - **Constructor**
-    - pide las propiedades no inicializadas como argumentos y las asigna según corresponda  
+    - pide las propiedades no inicializadas como argumentos y las asigna según corresponda
   - **Métodos**
     - getters para obtener los valores de todas las propiedades
-  
+
   ### Chat
   - **Propiedades**
     - usuario (`Usuario`)
@@ -297,7 +297,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - **`mandarMensaje(mensaje)`** agrega `mensaje` a `mensajes`, si `destinatario` es un usuario de la lista de contactos con y si `mensaje` no se encuentra ya en el array de `mensajes`
   - **Observaciones**
     - solo se pueden mandar mensajes a usuarios de la lista de `contactos`. En caso contrario, arrojar un error.
-    <br> 
+    <br>
 
 ## Twitter con Tweets y Usuarios
 
@@ -309,7 +309,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - pide `handle` como argumento y lo agrega a su respectiva propiedad
   - **Métodos**
     - **`seguir(usuario)`** agrega `usuario` a `siguiendo`, *si no se encuentra ya en dicho array* y *si no es el propio  usuario* (no se puede seguir a sí mismo)
-    - getters para obtener los valores de todas las propiedades 
+    - getters para obtener los valores de todas las propiedades
 
   ### Tweet
   - **Propiedades**
@@ -325,7 +325,7 @@ Cuando se devuelvan valores, si son objetos y arrays de las propiedades, devolve
     - getters para obtener los valores de todas las propiedades
     - **`darLike(usuario)`** agrega `usuario` a `likes`, *si ya se encuentra en dicho array, debe removerlo de mismo*
     - **`retweetear(usuario)`** agrega `usuario` a `retweets`, *si ya se encuentra en dicho array, debe removerlo de mismo*
-    
+
   ### Twitter
   - **Propiedades**
     - tweets (array de `Tweet`), inicializa vacío

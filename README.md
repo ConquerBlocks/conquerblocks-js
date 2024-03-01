@@ -27,6 +27,9 @@
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2014%20-%20Prototipos/JS%20Clase%2014%20-%20Prototipos.pdf">JS Clase 14 - Prototipos</a></li>
     <li><a target="_blank" href="https://github.com/ConquerBlocks/conquerblocks-js/blob/master/01_clases/JS%20Clase%2015%20-%20Resoluci%C3%B3n%20de%20ejercicios%20de%20Arrays%202/code/ejercios-arrays-2-enunciados.js">JS Clase 15 - Resolución de ejercicios de Arrays 2</a></li>
     <li><a target="_blank" href="./01_clases/JS Clase 16 - Clases en JS/JS Clase 16 - Clases en Javascript.pdf">JS Clase 16 - Clases en Javascript</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 17 - Ejercicios con Clases Javascript 1/">JS Clase 17 - Ejercicios con Clases Javascript 1</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 18 - Ejercicios con Clases Javascript 2/">JS Clase 18 - Ejercicios con Clases Javascript 2</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 19 - Módulos en  ECMAScript 6 y primer proyecto con Vite/">JS Clase 19  Módulos en  ECMAScript 6 y primer proyecto con Vite</a></li>
 </ul>
 
 <h4>Ejercicios</h4>

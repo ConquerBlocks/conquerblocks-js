@@ -30,6 +30,10 @@
     <li><a target="_blank" href="./01_clases/JS Clase 17 - Ejercicios con Clases Javascript 1/">JS Clase 17 - Ejercicios con Clases Javascript 1</a></li>
     <li><a target="_blank" href="./01_clases/JS Clase 18 - Ejercicios con Clases Javascript 2/">JS Clase 18 - Ejercicios con Clases Javascript 2</a></li>
     <li><a target="_blank" href="./01_clases/JS Clase 19 - Módulos en  ECMAScript 6 y primer proyecto con Vite/">JS Clase 19  Módulos en  ECMAScript 6 y primer proyecto con Vite</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 20 - Manipulacion del Dom - Selectores/JS Clase 20 - Manipulacion del Dom - Selectores.pdf">JS Clase 20 - Manipulacion del Dom - Selectores</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 21 - Creacion de elementos del DOM/JS Clase 21 - Creacion de elementos del DOM.pdf">JS Clase 21 - Creacion de elementos del DOM</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 22 - Gestión de atributos del DOM/JS Clase 22 - Gestion de atributos del DOM.pdf">JS Clase 22 - Gestión de atributos del DOM</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 23 - classList y Dataset/JS Clase 23 - classList y Dataset.pdf">JS Clase 23 - API classList y Dataset</a></li>
 </ul>
 
 <h4>Ejercicios</h4>

@@ -47,4 +47,5 @@
     <!-- <li><a target="_blank" href="./02_ejercicios/06-funciones.md">Funciones</a></li>
     <li><a target="_blank" href="./02_ejercicios/07-funciones-buenas-practicas.md">Buenas prácticas con funciones</a></li> -->
     <li><a target="_blank" href="./02_ejercicios/15-clases.md">Ejercicios con Clases</a></li>
+    <li><a target="_blank" href="./02_ejercicios/17-manipulacion-dom.md">Ejercicios de manipulación del DOM</a></li>
 </ul>

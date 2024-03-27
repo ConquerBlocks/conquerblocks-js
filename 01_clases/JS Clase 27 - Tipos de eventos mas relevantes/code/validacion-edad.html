@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 27 Javascript</title>
+</head>
+<body>
+  <h1>Clase 27 Javascript - Validación de edad</h1>
+
+  <form action="http://google.com" method="get">
+    <p class="error"></p>
+    <p>
+      <label for="age">Introduzca su edad entre 18 y 30 años</label>
+      <input type="number" id="age" name="age">
+    </p>
+
+    <button>Enviar</button>
+
+  </form>
+
+  <script>
+    let primerForm = document.forms[0];
+    let ageElement = document.getElementById('age');
+    let errorElement = primerForm.querySelector('.error');
+
+    primerForm.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      console.log('Enviando formulario');
+      let edad = document.getElementById('age').value;
+      if (edad >= 18 && edad <= 30){
+        errorElement.textContent = '';
+        primerForm.submit();
+      }else {
+        errorElement.textContent = 'Debe introducir una edad entre 18 y 30 años';
+        errorElement.style.color= 'red';
+      }
+    });
+
+    ageElement.addEventListener('change', () => {
+        console.log('El elemento se ha cambiado');
+    });
+
+    ageElement.addEventListener('focus', () => {
+      console.log('El elemento tiene el foco');
+    });
+
+    ageElement.addEventListener('blur', () => {
+      console.log('El elemento pierde el foco');
+    });
+
+  </script>
+</body>
+</html>

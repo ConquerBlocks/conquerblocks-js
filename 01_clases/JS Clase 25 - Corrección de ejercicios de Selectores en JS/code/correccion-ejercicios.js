@@ -107,3 +107,7 @@ console.log("Empezamos con la corrección");
 // 22. Selecciona el penúltimo enlace de las página.
 // let enlaces = document.getElementsByTagName("a");
 // let penultimoEnlace = enlaces[enlaces.length - 2];
+
+
+let ultimoHijo = document.body.lastElementChild;
+debugger;

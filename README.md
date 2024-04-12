@@ -34,6 +34,14 @@
     <li><a target="_blank" href="./01_clases/JS Clase 21 - Creacion de elementos del DOM/JS Clase 21 - Creacion de elementos del DOM.pdf">JS Clase 21 - Creacion de elementos del DOM</a></li>
     <li><a target="_blank" href="./01_clases/JS Clase 22 - Gestión de atributos del DOM/JS Clase 22 - Gestion de atributos del DOM.pdf">JS Clase 22 - Gestión de atributos del DOM</a></li>
     <li><a target="_blank" href="./01_clases/JS Clase 23 - classList y Dataset/JS Clase 23 - classList y Dataset.pdf">JS Clase 23 - API classList y Dataset</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 24 - Manipulacion del DOM/JS Clase 24 - Insertar y movernos por el DOM.pdf">JS Clase 24 - Manipulacion del DOM</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 25 - Corrección de ejercicios de Selectores en JS/JS Clase 25 - Correccion de ejercicios de Selectores en JS.pdf">JS Clase 25 - Corrección de ejercicios de Selectores en JS</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 26 - Gestión de eventos en JS/JS Clase 26 - Gestión de eventos en JS.pdf">JS Clase 26 - Gestión de eventos en JS</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 27 - Tipos de eventos mas relevantes/JS Clase 27 - Tipos de eventos mas relevantes.pdf">JS Clase 27 - Tipos de eventos mas relevantes</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 27-2 - Corrección de ejercicios/JS Clase 27-2 Tipos de eventos mas relevantes - ejercicios.pdf">JS Clase 27-2 - Corrección de ejercicios</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 28 - Corrección de ejercicios de Selectores en JS II/JS Clase 28 - Correccion de ejercicios de Selectores en JS II.pdf">JS Clase 28 - Corrección de ejercicios de Selectores en JS II</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 29 - Emisión y propagación de eventos/JS Clase 29 - Emision y propagacion de eventos.pdf">JS Clase 29 - Emisión y propagación de eventos</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 30 - Ejercicios sobre eventos/JS Clase 30 - Ejercicios sobre eventos.pdf">JS Clase 30 - Ejercicios sobre eventos</a></li>
 </ul>
 
 <h4>Ejercicios</h4>
@@ -47,5 +55,6 @@
     <!-- <li><a target="_blank" href="./02_ejercicios/06-funciones.md">Funciones</a></li>
     <li><a target="_blank" href="./02_ejercicios/07-funciones-buenas-practicas.md">Buenas prácticas con funciones</a></li> -->
     <li><a target="_blank" href="./02_ejercicios/15-clases.md">Ejercicios con Clases</a></li>
+    <li><a target="_blank" href="./02_ejercicios/16-eventos.md">Ejercicios sobre eventos</a></li>
     <li><a target="_blank" href="./02_ejercicios/17-manipulacion-dom.md">Ejercicios de manipulación del DOM</a></li>
 </ul>

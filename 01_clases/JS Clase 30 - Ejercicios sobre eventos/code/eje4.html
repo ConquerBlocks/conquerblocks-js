@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corrección de los ejercicios de selectores de JS</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <h1>Corrección de los ejercicios de selectores de JS</h1>
+  <h2>Ejercicio 4</h2>
+  <p><a href="index.html">Atrás</a></p>
+  <p>Elabora un programa que vaya rellenando un párrafo de forma dinámica con todas las letras que vaya pulsando el usuario sobre cualquier elemento de la página. Al final del párrafo debes incluir un botón para limpiar el contenido del párrafo.</p>
+
+  <main>
+    <h5>Párrafo dinamico</h5>
+    <p id="dinamicP"></p>
+  </main>
+
+  <script>
+
+    let dinamicP = document.getElementById('dinamicP');
+
+    let deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Borrar contenido';
+    dinamicP.appendChild(deleteButton);
+
+    deleteButton.addEventListener('click', ()=>{
+      if(dinamicP.childNodes.length === 1) return false;
+      dinamicP.childNodes[0].remove();
+    });
+
+    document.body.addEventListener('keydown', (event)=>{
+      if (dinamicP.childNodes.length === 1){
+        // Hay que crear el nodo de tipo texto
+        let newTextNode = document.createTextNode(event.key);
+        dinamicP.prepend(newTextNode);
+      }else {
+        // ya tiene no do de tipo texto, por lo qoue solo añadimos la tecla pulsada
+        dinamicP.childNodes[0].textContent = dinamicP.childNodes[0].textContent + event.key;
+      }
+    });
+
+  </script>
+</body>
+
+</html>

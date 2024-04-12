@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corrección de los ejercicios de selectores de JS</title>
+</head>
+
+<body>
+  <h1>Corrección de los ejercicios de selectores de JS</h1>
+  <h2>Ejercicio 1</h2>
+  <p><a href="index.html">Atrás</a></p>
+  <p>Crea una página HTML con un contenedor de una imagen. Debes tener preparadas diez imágenes y en función de la tecla numérica que se pulse (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) debe aparecer esa imagen en el contenedor. Cuando se pulse otro número, debe vaciarse el contenedor y cargarse de nuevo su imagen correspondiente.</p>
+
+  <main>
+    <div class="imgContainer">
+      <figure>
+        <img id="imgCambiante" src="https://picsum.photos/300/200?r=1" alt="">
+      </figure>
+    </div>
+  </main>
+
+  <script>
+    let imgUrls = [
+      'https://picsum.photos/300/200?r=1',
+      'https://picsum.photos/300/200?r=2',
+      'https://picsum.photos/300/200?r=3',
+      'https://picsum.photos/300/200?r=4',
+      'https://picsum.photos/300/200?r=5',
+      'https://picsum.photos/300/200?r=6',
+      'https://picsum.photos/300/200?r=7',
+      'https://picsum.photos/300/200?r=8',
+      'https://picsum.photos/300/200?r=9',
+      'https://picsum.photos/300/200?r=10'
+    ];
+
+    let imgCambiante = document.getElementById('imgCambiante');
+
+    document.body.addEventListener("keydown", (event)=>{
+      let key = parseInt(event.key);
+      if(key >= 0 && key <= 9){
+        imgCambiante.setAttribute('src', imgUrls[key]);
+      }else {
+        console.log('No has pulsado un número del 0 al 9');
+      }
+    });
+
+  </script>
+</body>
+
+</html>

@@ -41,7 +41,11 @@
     <li><a target="_blank" href="./01_clases/JS Clase 27-2 - Corrección de ejercicios/JS Clase 27-2 Tipos de eventos mas relevantes - ejercicios.pdf">JS Clase 27-2 - Corrección de ejercicios</a></li>
     <li><a target="_blank" href="./01_clases/JS Clase 28 - Corrección de ejercicios de Selectores en JS II/JS Clase 28 - Correccion de ejercicios de Selectores en JS II.pdf">JS Clase 28 - Corrección de ejercicios de Selectores en JS II</a></li>
     <li><a target="_blank" href="./01_clases/JS Clase 29 - Emisión y propagación de eventos/JS Clase 29 - Emision y propagacion de eventos.pdf">JS Clase 29 - Emisión y propagación de eventos</a></li>
-    <li><a target="_blank" href="./01_clases/JS Clase 30 - Ejercicios sobre eventos/JS Clase 30 - Ejercicios sobre eventos.pdf">JS Clase 30 - Ejercicios sobre eventos</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 30 - Ejercicios sobre eventos/JS Clase 30 - Ejercicios sobre eventos.pdf">JS Clase 30 - Ejercicios sobre eventos I</a></li>
+    <li>JS Clase 31 - Ejercicios sobre eventos II</li>
+    <li>JS Clase 32 - Ejercicios sobre eventos III</li>
+    <li><a target="_blank" href="./01_clases/JS Clase 33 - LocalStorage, SessionStorage y Cookies/JS Clase 33 - LocalStorage, SessionStorage y Cookies.pdf">JS Clase 33 - LocalStorage, SessionStorage y Cookies</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 34 Nuestro primer proyecto con Vite en JS/JS Clase 34 Nuestro primer proyecto con Vite en JS.pdf">JS Clase 34 - Nuestro primer proyecto con Vite en JS</a></li>
 </ul>
 
 <h4>Ejercicios</h4>

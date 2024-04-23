@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corrección de los ejercicios de selectores de JS</title>
+  <style>
+    .boxes {
+      
+    }
+
+    .box {
+      border: 1px solid black;
+      width: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .green {
+      background-color: green;
+      border-color: green;
+    }
+
+    .red {
+      background-color: red;
+      border-color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Corrección de los ejercicios de selectores de JS</h1>
+  <h2>Ejercicio 7</h2>
+  <p><a href="index.html">Atrás</a></p>
+  <p>Escribe un programa para simular la velocidad de pulsación de dos teclas. En pantalla aparecerán dos cajas, una verde y otra roja, una debajo de otra. El alto de cada caja será de 40 px y el ancho inicial de 10 px cada una. La primera caja incrementará su ancho 5 px cada vez que se pulse la tecla [a]. La segunda caja hará lo mismo cuando se pulse la tecla [ñ]. El juego termina cuando una de las cajas llega a 500 px de ancho. En ese mo- mento deben desactivarse los eventos de ambas teclas y mostrarse un mensaje bajo las cajas que ponga «GANA VERDE» • «GANA ROJO». Se trata de calcular con qué mano eres capaz de realizar más pulsaciones.</p>
+
+  <main>
+    <section class="boxes">
+      <div class="box green" data-letter="a">A</div>
+      <div class="box red" data-letter="ñ">Ñ</div>
+    </section>
+    <p id="result"></p>
+
+  </main>
+
+  <script>
+    let presionarTecla = (event)=>{
+      let letter = event.key;
+      let box = document.querySelector(`[data-letter=${letter}]`);
+      if (box) {
+        let width = box.offsetWidth;
+        width += 5;
+        box.style.width = `${width}px`;
+
+        if (width >= 500) {
+          if (box.classList.contains('green')) {
+            document.getElementById('result').textContent = 'Ha ganado el verde';
+          } else {
+            document.getElementById('result').textContent = 'Ha ganado el rojo';
+          }
+
+          document.body.removeEventListener('keydown', presionarTecla);
+        }
+      }
+    }
+
+    document.body.addEventListener('keydown', presionarTecla);
+
+  </script>
+</body>
+
+</html>

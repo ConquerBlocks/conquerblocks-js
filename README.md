@@ -45,7 +45,7 @@
     <li>JS Clase 31 - Ejercicios sobre eventos II</li>
     <li>JS Clase 32 - Ejercicios sobre eventos III</li>
     <li><a target="_blank" href="./01_clases/JS Clase 33 - LocalStorage, SessionStorage y Cookies/JS Clase 33 - LocalStorage, SessionStorage y Cookies.pdf">JS Clase 33 - LocalStorage, SessionStorage y Cookies</a></li>
-    <li><a target="_blank" href="./01_clases/JS Clase 34 Nuestro primer proyecto con Vite en JS/JS Clase 34 Nuestro primer proyecto con Vite en JS.pdf">JS Clase 34 - Nuestro primer proyecto con Vite en JS</a></li>
+    <li><a target="_blank" href="./01_clases/JS Clase 34 - Primer proyecto con Vite/JS Clase 34 Nuestro primer proyecto con Vite en JS.pdf">JS Clase 34 - Nuestro primer proyecto con Vite en JS</a></li>
 </ul>
 
 <h4>Ejercicios</h4>

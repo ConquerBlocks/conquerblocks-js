@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corrección de los ejercicios de selectores de JS</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <h1>Corrección de los ejercicios de selectores de JS</h1>
+  <h2>Ejercicio 3</h2>
+  <p><a href="index.html">Atrás</a></p>
+  <p>Escribe un programa que permita ordenar los elementos de una lista desordenada. Cada elemento debe tener un aspa en su extremo derecho para poder ser eliminado. Además, al final habrá un botón para añadir un elemento. El texto del nuevo elemento se le debe pedir al usuario por teclado.</p>
+
+  <main>
+    <h5>Ingredientes</h5>
+    <ul id="items">
+      <li>Tomates</li>
+      <li>Cebollas</li>
+      <li>Patatas</li>
+      <li>Azúcar</li>
+    </ul>
+
+    <div class="actions">
+      <button id="sortButton">Ordenar</button>
+      <button id="newElement">Nuevo Elemento</button>
+    </div>
+  </main>
+
+  <script>
+    let lista = document.getElementById('items');
+    let items = lista.querySelectorAll('li');
+    let itemsText = [];
+
+    for (let item of items){
+      itemsText.push(item.childNodes[0].textContent)
+    }
+
+    // añadiemos botón de eliminar
+    for (let item of items) {
+      let newButton = document.createElement('button');
+      newButton.textContent = 'X';
+      item.appendChild(newButton);
+
+      newButton.addEventListener('click', (event)=>{
+        event.target.parentNode.remove();
+      });
+    }
+
+    // Ordenar
+    let sortButton = document.getElementById('sortButton');
+    sortButton.addEventListener('click', ()=>{
+      itemsText = [];
+      items = lista.querySelectorAll('li');
+      for (let item of items) {
+        itemsText.push(item.childNodes[0].textContent)
+      }
+      itemsText.sort();
+
+      lista.innerHTML = '';
+      itemsText.map(item => {
+        let newLi = document.createElement('li');
+        newLi.textContent = item;
+        
+        // Le añadimos el botón de eliminar
+        let newButton = document.createElement('button');
+        newButton.textContent = 'X';
+        newButton.addEventListener('click', (event) => {
+          event.target.parentNode.remove();
+        });
+        newLi.appendChild(newButton);
+
+        // Añadimos a la lista
+        lista.appendChild(newLi);
+      });
+    });
+
+
+    // Añadir elemento
+    let newElement = document.getElementById('newElement');
+    newElement.addEventListener('click', ()=>{
+      let texto = prompt('Introduce el nombre del elemento');
+      let newLi = document.createElement('li');
+      newLi.textContent = texto;
+
+      // Le añadimos el botón de eliminar
+      let newButton = document.createElement('button');
+      newButton.textContent = 'X';
+      newButton.addEventListener('click', (event) => {
+        event.target.parentNode.remove();
+      });
+      newLi.appendChild(newButton);
+
+      // Añadimos a la lista
+      lista.appendChild(newLi);
+    });
+
+  </script>
+</body>
+
+</html>

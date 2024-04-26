@@ -1,0 +1,13 @@
+#boxContainer {
+  display: grid;
+  // grid-template-columns: repeat(6, 1fr);
+  // grid-template-rows: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.box {
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  background-color: black;
+}

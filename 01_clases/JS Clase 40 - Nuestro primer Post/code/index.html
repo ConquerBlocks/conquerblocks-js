@@ -4,10 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="clase40.js"></script>
+
 </head>
 <body>
   <h1>Nuestro primer Post</h1>
-
+  <form action="" id="createTodo">
+    <p>
+      <label for="userTodo">Usuario</label>
+      <select name="userTodo" id="userTodo" required>
+        <option value="">-</option>
+      </select>
+    </p>
+    <p>
+      <label for="todoName">Nombre de la tarea</label>
+      <input type="text" name="todoName" id="todoName" required>
+    </p>
+    <p>
+      <input type="checkbox" name="todoCompleted" id="todoCompleted">
+      <label for="todoCompleted">Completada</label>
+    </p>
+    <button id="saveTodo">Guardar</button>
+  </form>
+  <script src="clase40.js"></script>
 </body>
 </html>
